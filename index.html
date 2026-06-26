@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial · Nosso Cantinho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- ============== CABEÇALHO / HERO ============== -->
+    <header class="hero">
+        <svg class="moldura-canto moldura-canto--esquerda" viewBox="0 0 160 160" aria-hidden="true">
+            <path d="M5 5 C 40 10, 30 60, 70 55 C 100 50, 90 100, 140 110" fill="none" stroke="#a85065" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="40" cy="20" r="6" fill="#c97b6b"/>
+            <circle cx="80" cy="58" r="5" fill="#8a9a7e"/>
+            <circle cx="120" cy="108" r="7" fill="#c97b6b"/>
+        </svg>
+
+        <svg class="moldura-canto moldura-canto--direita" viewBox="0 0 160 160" aria-hidden="true">
+            <path d="M155 5 C 120 10, 130 60, 90 55 C 60 50, 70 100, 20 110" fill="none" stroke="#a85065" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="120" cy="20" r="6" fill="#c97b6b"/>
+            <circle cx="80" cy="58" r="5" fill="#8a9a7e"/>
+            <circle cx="40" cy="108" r="7" fill="#c97b6b"/>
+        </svg>
+
+        <p class="hero-rotulo">um projeto de escola, feito com carinho ✿</p>
+        <h1 class="hero-titulo">Nosso Cantinho<span>página inicial</span></h1>
+        <p class="hero-sub">Quatro pessoas, quatro páginas, um único jardim de histórias para você explorar.</p>
+
+        <div class="divisor-floral" aria-hidden="true">⊹ •⁺‧⁺˚ ☘︎ ˚⁺‧⁺• ⊹</div>
+    </header>
+
+    <!-- ============== INTEGRANTES ============== -->
+    <main>
+        <section class="secao-integrantes" aria-labelledby="tit-integrantes">
+            <h2 id="tit-integrantes" class="titulo-secao">Quem fez esse jardim crescer</h2>
+            <p class="subtitulo-secao">Clique em um cartão para visitar a página pessoal de cada um.</p>
+
+            <div class="grade-integrantes">
+
+                <!-- INTEGRANTE 1 (substitua nome, frase, foto e o link href abaixo) -->
+                <article class="cartao-flor">
+                    <span class="cartao-fita" aria-hidden="true"></span>
+                    <div class="cartao-moldura">
+                        <!-- TODO: troque a div abaixo por <img src="caminho/da/foto.jpg" alt="Foto de André"> -->
+                        <img src="pAndre/FotoAndre.pnj" alt="Imagem do andre">
+                    </div>
+                    <h3 class="cartao-nome">André</h3>
+                    <p class="cartao-frase">Fullstack</p>
+                    <!-- TODO: ajuste o href para o caminho real da página do André -->
+                    <a class="cartao-botao" href="../pAndre/andre.html">Visitar página <span aria-hidden="true">→</span></a>
+                </article>
+
+                <!-- INTEGRANTE 2 (substitua nome, frase, foto e o link href abaixo) -->
+                <article class="cartao-flor">
+                    <span class="cartao-fita" aria-hidden="true"></span>
+                    <div class="cartao-moldura">
+                        <!-- TODO: troque a div abaixo por <img src="caminho/da/foto.jpg" alt="Foto de [nome]"> -->
+                        <img src="pMiguel/Laila.jpg" alt="">
+                    </div>
+                    <h3 class="cartao-nome">Miguel Quadros Araújo</h3>
+                    <p class="cartao-frase">Dados que ama cachorros salsicha🐕</p>
+                    <!-- TODO: ajuste o href para o caminho real da página -->
+                    <a class="cartao-botao" href="../pMiguel/aluno-Miguelq">Visitar página <span aria-hidden="true">→</span></a>
+                </article>
+
+                <!-- INTEGRANTE 3 (substitua nome, frase, foto e o link href abaixo) -->
+                <article class="cartao-flor">
+                    <span class="cartao-fita" aria-hidden="true"></span>
+                    <div class="cartao-moldura">
+                        <!-- TODO: troque a div abaixo por <img src="caminho/da/foto.jpg" alt="Foto de [nome]"> -->
+                        <img src="pZaia/assets/Fernando_Neto_Zaia.jpg" alt="Imagem do Fernando Zaia">
+                    </div>
+                    <h3 class="cartao-nome">Zaia</h3>
+                    <p class="cartao-frase">Back-end</p>
+                    <!-- TODO: ajuste o href para o caminho real da página -->
+                    <a class="cartao-botao" href="pZaia/zaia.html">Visitar página<span aria-hidden="true">→</span></a>
+                </article>
+
+                <!-- INTEGRANTE 4 (substitua nome, frase, foto e o link href abaixo) -->
+                <article class="cartao-flor">
+                    <span class="cartao-fita" aria-hidden="true"></span>
+                    <div class="cartao-moldura">
+                        <!-- TODO: troque a div abaixo por <img src="caminho/da/foto.jpg" alt="Foto de [nome]"> -->
+                        <img src="P.victoria/assests/Image Image 2026-05-22 at 08.31.35.jpeg" alt="Imagem da Victoria">
+                    <h3 class="cartao-nome">Victoria </h3>
+                    <p class="cartao-frase"> Front-end</p>
+                    <!-- TODO: ajuste o href para o caminho real da página -->
+                    <a class="cartao-botao" href="P.victoria/victoria.H">Visitar página <span aria-hidden="true">→</span></a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ============== RODAPÉ ============== -->
+    <footer class="rodape-floral">
+        <div class="divisor-floral" aria-hidden="true">⊹ ‧₍ᐢ-ﻌ-ᐢ₎‧ ⊹</div>
+        <p>Feito com 🌷 para o trabalho escolar · 2026</p>
+    </footer>
+
+</body>
+</html>
